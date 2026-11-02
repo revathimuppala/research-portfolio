@@ -5,7 +5,7 @@ Senior Business Analyst and NISM-certified Research Analyst (Series XV), with an
 fundamentals at Thomson Reuters. I am looking for research roles in Indian capital markets, with a
 focus on **equity research, fund research and financial planning**.
 
-This repository showcases personal projects from 2025–2026. I defined each product, wrote the
+This repository showcases personal projects from 2024 to present. I defined each product, wrote the
 specifications and built it with Claude Code.
 
 ---
