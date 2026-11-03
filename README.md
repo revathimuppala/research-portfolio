@@ -53,6 +53,39 @@ trials → paper-trading books with risk-adjusted performance.
 
 ---
 
+## 3. Market Newsdesk: End-of-Day Market Brief
+
+A daily brief on Indian markets, built from free public sources and published after each trading day.
+
+- **Markets and global cues:** Nifty, Sensex, Bank Nifty, VIX, rupee, US yields, crude, gold and global indices,
+  with what each big move means for Indian sectors, and FII/DII flows.
+- **Economic calendar:** high-impact global events for the next 36 hours, with why each matters for India.
+- **Market-moving news:** the top stories with real market impact, every policy-relevant Finance Minister
+  statement, and capital-markets regulatory news (SEBI, exchanges, RBI rules on markets).
+- **Exchange filings:** all ~1,200 NSE filings of the day screened for what matters to an investor:
+  - **Order wins:** the order value is read from the filing PDF, including scanned filings via OCR, and judged
+    on yearly revenue impact.
+  - **Red flags:** auditor exits, insolvency, tax and legal orders.
+  - **Corporate actions and results.**
+  - **Noise:** routine filings are excluded and counted, with the reason.
+- **Summaries and analyst insights:** for every material filing. Examples from 3 Nov 2026:
+  - JNK India's "Major" order came from its promoter, so it is a related-party order.
+  - LCC Projects' ₹703 crore order includes 10 years of maintenance, so construction revenue is lower than the headline.
+
+**Live briefs:** [revathimuppala.github.io/market-briefs](https://revathimuppala.github.io/market-briefs/)
+
+**Demo:** calendar → market-moving news → order wins with value, materiality and insight → red flags →
+corporate actions → excluded noise.
+
+![Market Newsdesk demo](docs/demo/market_newsdesk_demo.gif)
+
+[Watch in higher quality (MP4)](docs/demo/market_newsdesk_demo.mp4)
+
+> Personal research, not investment advice. Summaries and insights are machine-assisted from public filings
+> and news; always check the original source.
+
+---
+
 ## Skills shown
 
 - **Equity research:** industry and company analysis, financial statements, annual reports and
@@ -60,4 +93,6 @@ trials → paper-trading books with risk-adjusted performance.
 - **Fund research:** category peer comparison, portfolio holdings, risk and return measures
   (Sharpe, Sortino, drawdown)
 - **Financial planning:** goal-based planning, SIP and step-up SIP projections, what-if scenarios
+- **Market monitoring:** exchange filings and corporate disclosures, materiality and red-flag screening,
+  macro, policy and regulatory news analysis
 - **Data and tools:** SQL, Power BI, Excel, Thomson Reuters Eikon, Claude Code
